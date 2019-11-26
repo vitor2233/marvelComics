@@ -1,0 +1,23 @@
+.comics{
+    margin-top: 3vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,
+                           minmax(16rem, 1fr));
+    
+}
+.comicMap{
+    transition: transform .2s;
+    display: flex;
+    flex-direction: row;
+    margin: 10%;
+}
+.comicMap:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.search{
+    width: 30vw;
+}
